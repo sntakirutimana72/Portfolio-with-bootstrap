@@ -1,0 +1,20 @@
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+}
+
+a.navbar-brand {
+  color: #6070ff;
+}
+
+.nav-item a {
+  color: #344563;
+}
