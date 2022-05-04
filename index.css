@@ -18,3 +18,35 @@ a.navbar-brand {
 .nav-item a {
   color: #344563;
 }
+
+#headline {
+  background-image: url(./static/images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#headline > div {
+ max-width: 920px;
+ margin: auto;
+ padding-top: 289px;
+}
+
+h2 {
+  color: #091e42;
+  letter-spacing: 0.37px;
+  line-height: 60px;
+  font-size: 48px;
+}
+
+p {
+  color: #344563;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
