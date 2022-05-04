@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-html-css-template
+# Portfolio-with-bootstrap
 
-> A Microverse Github Template for projects built with HTML & CSS only.
+> An introductive concept on the use of bootstrap for fast track web development.
 
 
 ## Built With
 
 - HTML & CSS
+- Bootstrap
 
 
 ## Screenshots (if available)
@@ -36,6 +37,14 @@ To get a local copy up and running follow these simple example steps.
 👤 **Steve**
 
 - GitHub: [@github-profile](https://github.com/sntakirutimana72)
+
+👤 **Godfrey**
+
+- GitHub: [@github-profile](https://github.com/godiarksel)
+
+👤 **Thomas**
+
+- GitHub: [@github-profile](https://github.com/gasangw)
 
 ## 🤝 Contributing
 
