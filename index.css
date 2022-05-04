@@ -50,3 +50,37 @@ h3 {
   line-height: 24px;
   color: #7f8cff;
 }
+.card {
+max-width: 1156px;
+margin: auto;
+border-radius: 24px;
+}
+
+.canopy-img, .tonic-icons-container img {
+  margin: 0 5px;
+}
+
+.tonic-heading { 
+line-height: 52px;
+font-size: 40px;
+color: #091e42;
+}
+.canopy-header {
+  line-height: 24px;
+  font-size: 18px;
+  color: #344563;
+}
+.canopy-text {
+line-height: 24px;
+font-size: 18px;
+color: #6b778c;
+}
+.tonic-parag {
+  line-height: 24px;
+  font-size: 18px;
+  color: #344563;
+}
+.btn {
+  font-size: 17px;
+  color: #396df2;
+}
