@@ -13,8 +13,8 @@
     </head>
 
     <body>
-        <main>
-            <header>
+        <main class="ms-auto">
+            <header class="bg-white">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand fw-bold fs-5 lh-20" href="#">My Logo</a>
@@ -32,194 +32,305 @@
                     </div>
                 </nav>
             </header>
-            <section id="headline">
+
+            <section class="bg-white" id="headline">
                 <div class="flex-direction-column">
-                  <h2 class="fw-bold">I’m Alexandra<br>Glad to see you!</h2>  
-                  <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                <h3 class="fw-normal">LET'S CONNECT</h3>
-                <ul class="d-flex list-unstyled">
-                    <li class="m-1 ml-0">
-                        <a href="#"
-                        ><img
-                          src="./static/images/twitter.png"
-                          alt="twitter-icon"
-                          class="twitter"
-                      /></a> 
-                    </li>
-                    <li class="m-1">
-                        <img
-                        src="./static/images/linkedin.png"
-                        alt="linkedin-icon"
-                        class="linkedin"
-                    /></a> 
-                    </li>
-                    <li class="m-1">
-                        <a href="#"
-                        ><img
-                          src="./static/images/medium.png"
-                          alt="medium-icon"
-                          class="medium m-2"
-                      /></a>
-                    </li>
-                    <li class="m-1">
-                        <a href="#"
-                        ><img
-                          src="./static/images/github.png"
-                          alt="github-icon"
-                          class="github"
-                      /></a>
-                    </li>
-                    <li class="m-1">
-                        <a href="#"
-                        ><img
-                          src="./static/images/angellist.png"
-                          alt="angellist-icon"
-                          class="angellist"
-                      /></a>
-                    </li>
-                </ul>
+                    <h2 class="fw-bold">
+                        I’m Alexandra<br>
+                        Glad to see you!
+                    </h2>
+                    <p>
+                      I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                    </p>
+                    <h3 class="fw-normal">
+                        LET'S CONNECT
+                    </h3>
+                    <ul class="d-flex list-unstyled">
+                        <li class="m-2">
+                            <a href="#">
+                                <img
+                                    src="./static/images/twitter.png"
+                                    alt="twitter-icon" />
+                            </a>
+                        </li>
+                        <li class="m-2">
+                            <a href="#">
+                                <img
+                                    src="./static/images/linkedin.png"
+                                    alt="linkedin-icon" />
+                            </a>
+                        </li>
+                        <li class="m-2">
+                            <a href="#">
+                                <img
+                                    src="./static/images/medium.png"
+                                    alt="medium-icon" />
+                            </a>
+                        </li>
+                        <li class="m-2">
+                            <a href="#">
+                                <img
+                                    src="./static/images/github.png"
+                                    alt="github-icon" />
+                            </a>
+                        </li>
+                        <li class="m-2">
+                            <a href="#">
+                                <img
+                                    src="./static/images/angellist.png"
+                                    alt="angellist-icon" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
             </section>
-            <section id="cards">
-                <div class="card p-3">
-                    <div class="row">
-                        <div class="tonic-image col-md-6">
-                            <img class="w-100 h-100" src="./static/images/Snapshoot-Portfolio.png" alt="nature">
+
+            <section id="works">
+                <div class="d-flex flex-column align-items-center gap-5">
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="tonic-image col-md-6">
+                                <img class="w-100 h-100" src="./static/images/Snapshoot-Portfolio.png" alt="nature">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="tonic-heading fw-bold">Tonic</h3>
+                                    <div class="canopy-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li class="canopy-header fw-normal"><p>CANOPY</p></li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">Back End Dev</li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">2015</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tonic-parag">
+                                        A daily selection of privately personalized reads;
+                                        no accounts or sign-ups required.
+                                    </p>
+
+                                    <div class="tonic-icons-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
+                                            <li><img src="./static/images/css-tag.png" alt="css-tag"></li>
+                                            <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-success bl fw-normal p-12">See Project</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h3 class="tonic-heading fw-bold">Tonic</h3>
-                                <div class="canopy-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li class="canopy-header fw-normal"><p>CANOPY</p></li>  
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">Back End Dev</li>
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">2015</li>
-                                    </ul>
+                    </div>
+
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="tonic-heading fw-bold">Multi-Post Stories</h3>
+                                    <div class="canopy-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li class="canopy-header fw-normal"><p>FACEBOOK</p></li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">Full Stack Dev</li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">2015</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tonic-parag">
+                                        Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                                    </p>
+
+                                    <div class="tonic-icons-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
+                                            <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li>
+                                            <li><img src="./static/images/css-tag.png" alt="css-tag"></li>
+                                            <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-success bl fw-normal p-12">See Project</a>
                                 </div>
-                                <p class="tonic-parag">
-                                    A daily selection of privately personalized reads; 
-                                    no accounts or sign-ups required.
-                                </p>
-                            
-                                <div class="tonic-icons-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
-                                        <li><img src="./static/images/css-tag.png" alt="css-tag"></li> 
-                                        <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li> 
-                                    </ul>
+                            </div>
+                            <div class="tonic-image col-md-6">
+                                <img class="w-100 h-100" src="./static/images/multi-post-stories2.png" alt="multi-post story">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="tonic-image col-md-6">
+                                <img class="w-100 h-100" src="./static/images/tonic-portfolio.png" alt="nature">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="tonic-heading fw-bold">Facebook 360</h3>
+                                    <div class="canopy-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li class="canopy-header fw-normal"><p>FACEBOOK</p></li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">Full Stack Dev</li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">2015</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tonic-parag">
+                                        Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                                    </p>
+
+                                    <div class="tonic-icons-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
+                                            <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li>
+                                            <li><img src="./static/images/css-tag.png" alt="css-tag"></li>
+                                            <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-primary fw-normal p-12">See Project</a>
                                 </div>
-                                <a href="#" class="btn btn-outline-success fw-normal p-12">See Project</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="tonic-heading fw-bold">Uber Navigation</h3>
+                                    <div class="canopy-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li class="canopy-header fw-normal"><p>Uber</p></li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">Lead Developer</li>
+                                            <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
+                                            <li class="canopy-text">2018</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tonic-parag">
+                                        A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                                    </p>
+
+                                    <div class="tonic-icons-container">
+                                        <ul class="d-flex list-unstyled">
+                                            <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
+                                            <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li>
+                                            <li><img src="./static/images/css-tag.png" alt="css-tag"></li>
+                                            <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-success bl fw-normal p-12">See Project</a>
+                                </div>
+                            </div>
+                            <div class="tonic-image col-md-6">
+                                <img class="w-100 h-100" src="./static/images/multi-post-portfolio.png" alt="multi-post story">
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="card p-3">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h3 class="tonic-heading fw-bold">Multi-Post Stories</h3>
-                                <div class="canopy-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li class="canopy-header fw-normal"><p>FACEBOOK</p></li>  
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">Full Stack Dev</li>
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">2015</li>
-                                    </ul>
-                                </div>
-                                <p class="tonic-parag">
-                                    Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
-                                </p>
-                            
-                                <div class="tonic-icons-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
-                                        <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li> 
-                                        <li><img src="./static/images/css-tag.png" alt="css-tag"></li> 
-                                        <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li> 
-                                    </ul>
-                                </div>
-                                <a href="#" class="btn btn-outline-success fw-normal p-12">See Project</a> 
-                            </div>
-                        </div>
-                        <div class="tonic-image col-md-6">
-                            <img class="w-100 h-100" src="./static/images/multi-post-stories2.png" alt="multi-post story">
+            <section class="bg-white" id="about">
+                <div class="d-flex flex-wrap">
+                    <div class="about-first">
+                        <div class="flex-direction-column">
+                            <h2 class="fw-bold about-h2">
+                                About<br>
+                                Myself
+                            </h2>
+                            <p class="about-paragraph">
+                                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                            </p>
+                            <h3 class="fw-normal about-socio">
+                                LET'S CONNECT
+                            </h3>
+                            <ul class="d-flex list-unstyled">
+                                <li class="m-2">
+                                    <a href="#">
+                                        <img
+                                            src="./static/images/twitter.png"
+                                            alt="twitter-icon" />
+                                    </a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="#">
+                                        <img
+                                            src="./static/images/linkedin.png"
+                                            alt="linkedin-icon" />
+                                    </a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="#">
+                                        <img
+                                            src="./static/images/medium.png"
+                                            alt="medium-icon" />
+                                    </a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="#">
+                                        <img
+                                            src="./static/images/github.png"
+                                            alt="github-icon" />
+                                    </a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="#">
+                                        <img
+                                            src="./static/images/angellist.png"
+                                            alt="angellist-icon" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success bl fw-normal p-12">Get My Resume</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="card p-3">
-                    <div class="row">
-                        <div class="tonic-image col-md-6">
-                            <img class="w-100 h-100" src="./static/images/tonic-portfolio.png" alt="nature">
+                    <div class="about-second flex-grow-1">
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li>Languages</li>
+                            <li>
+                                <img
+                                    class="arrow"
+                                    alt="collapse"
+                                    src="./static/images/arrow-down.svg">
+                            </li>
+                        </ul>
+                        <div class="d-flex mt-4 gap-2">
+                            <img
+                                width="122"
+                                height="120"
+                                alt="collapse"
+                                src="./static/images/javascript.svg">
+                            <img
+                                width="122"
+                                height="120"
+                                alt="collapse"
+                                src="./static/images/html.svg">
+                            <img
+                                class="lang-img"
+                                width="122"
+                                height="120"
+                                alt="collapse"
+                                src="./static/images/css.svg">
                         </div>
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h3 class="tonic-heading fw-bold">Facebook 360</h3>
-                                <div class="canopy-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li class="canopy-header fw-normal"><p>FACEBOOK</p></li>  
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">Full Stack Dev</li>
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">2015</li>
-                                    </ul>
-                                </div>
-                                <p class="tonic-parag">
-                                    Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
-                                </p>
-                            
-                                <div class="tonic-icons-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
-                                        <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li>
-                                        <li><img src="./static/images/css-tag.png" alt="css-tag"></li> 
-                                        <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li> 
-                                    </ul>
-                                </div>
-                                <a href="#" class="btn btn-outline-success fw-normal p-12">See Project</a> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card p-3">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h3 class="tonic-heading fw-bold">Uber Navigation</h3>
-                                <div class="canopy-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li class="canopy-header fw-normal"><p>Uber</p></li>  
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">Lead Developer</li>
-                                        <li class="canopy-img"><img src="./static/images/counter.png" alt="counter"></li>
-                                        <li class="canopy-text">2018</li>
-                                    </ul>
-                                </div>
-                                <p class="tonic-parag">
-                                    A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
-                                </p>
-                            
-                                <div class="tonic-icons-container">
-                                    <ul class="d-flex list-unstyled">
-                                        <li><img src="./static/images/html-tag.png" alt="html-tag"></li>
-                                        <li><img src="./static/images/ruby-tag.png" alt="ruby-tag"></li>
-                                        <li><img src="./static/images/css-tag.png" alt="css-tag"></li> 
-                                        <li><img src="./static/images/javascript-tag.png" alt="javascript-tag"></li> 
-                                    </ul>
-                                </div>
-                                <a href="#" class="btn btn-outline-success fw-normal p-12">See Project</a> 
-                            </div>
-                        </div>
-                        <div class="tonic-image col-md-6">
-                            <img class="w-100 h-100" src="./static/images/multi-post-portfolio.png" alt="multi-post story">
-                        </div>
+                        <ul class="d-flex justify-content-between list-unstyled mt-4">
+                            <li>Frameworks</li>
+                            <li>
+                                <img
+                                    class="arrow"
+                                    alt="collapse"
+                                    src="./static/images/arrow-right.svg">
+                            </li>
+                        </ul>
+                        <hr>
+                        <ul class="d-flex justify-content-between list-unstyled mt-4">
+                            <li>Skills</li>
+                            <li>
+                                <img
+                                    class="arrow"
+                                    alt="collapse"
+                                    src="./static/images/arrow-right.svg">
+                            </li>
+                        </ul>
+                        <hr>
                     </div>
                 </div>
             </section>

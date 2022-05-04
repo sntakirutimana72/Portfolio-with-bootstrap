@@ -1,6 +1,5 @@
 main {
   max-width: 1440px;
-  margin: auto;
 }
 
 * {
@@ -9,6 +8,11 @@ main {
 
 body {
   margin: 0;
+  background: #e5e5e5;
+}
+
+header {
+  padding: 0 155px;
 }
 
 a.navbar-brand {
@@ -21,14 +25,15 @@ a.navbar-brand {
 
 #headline {
   background-image: url(./static/images/header.png);
-  background-size: cover;
+  background-size: 100% 92%;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
 }
 
 #headline > div {
- max-width: 920px;
- margin: auto;
- padding-top: 289px;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 289px 0 200px 0;
 }
 
 h2 {
@@ -50,37 +55,88 @@ h3 {
   line-height: 24px;
   color: #7f8cff;
 }
-.card {
-max-width: 1156px;
-margin: auto;
-border-radius: 24px;
+
+#works {
+  margin-top: 142px;
 }
 
-.canopy-img, .tonic-icons-container img {
+.card {
+  max-width: 1156px;
+  border-radius: 24px;
+}
+
+.canopy-img,
+.tonic-icons-container img {
   margin: 0 5px;
 }
 
-.tonic-heading { 
-line-height: 52px;
-font-size: 40px;
-color: #091e42;
+.tonic-heading {
+  line-height: 52px;
+  font-size: 40px;
+  color: #091e42;
 }
+
 .canopy-header {
   line-height: 24px;
   font-size: 18px;
   color: #344563;
 }
+
 .canopy-text {
-line-height: 24px;
-font-size: 18px;
-color: #6b778c;
+  line-height: 24px;
+  font-size: 18px;
+  color: #6b778c;
 }
+
 .tonic-parag {
   line-height: 24px;
   font-size: 18px;
   color: #344563;
 }
+
 .btn {
   font-size: 17px;
+  border-color: #dfe1e6;
+}
+
+.btn:hover {
+  border: none;
+  color: #fff !important;
+  background: linear-gradient(to right, orangered, purple);
+}
+
+.btn.bl {
   color: #396df2;
+}
+
+#about {
+  margin-top: 142px;
+  padding: 142px;
+  border-top-right-radius: 80px;
+}
+
+#about > div {
+  gap: 25px;
+}
+
+.about-h2 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.about-paragraph {
+  font-size: 16px;
+}
+
+.about-socio {
+  font-weight: 500;
+}
+
+.about-first {
+  width: 447px;
+}
+
+.about-second {
+  /* flex: 1; */
+  max-width: 684px;
 }
