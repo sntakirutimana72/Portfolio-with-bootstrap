@@ -2,7 +2,7 @@
 
 # Portfolio-with-bootstrap
 
-> An introductive concept on the use of bootstrap for fast track web development.
+A portfolio page that allows user to display their traits, experiences, skills, and technologies. Built with HTLM, CSS, and Bootstrap.
 
 
 ## Built With
